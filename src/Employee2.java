@@ -42,10 +42,6 @@ public class Employee2 {
 interface HandleEmployee {
     void handleEmployee(Employee2 employee2);
 }
-interface Change {
-    void setAdr(ArrayList<Employee2> employee2s);
-}
-
 class Company1 {
     public ArrayList<Employee2> employee2s = new ArrayList<>();
     public void addEmployee2s(Employee2 employee2s1) {
