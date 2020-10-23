@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d27796a1-3a8b-4f38-8b66-92156fcf94cd" name="Default Changelist" comment="" />
+    <list default="true" id="68917a39-ee33-45c3-9ff0-26e0ea3ae222" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/Lab1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab1/src/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab2/Lab2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GitHub.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Ball.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/BookTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Calculator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Calculator$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Calculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Cicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/CircleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/EmployeePosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/GitHub.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/ballTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/dog_kannel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/GitHub.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/GitHub.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/src.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GitHub/out/production/GitHub/out/production/GitHub/out/production/GitHub/GitHub.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cicle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CircleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factorial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Harmonic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MoveRectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MyFirstJavaProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Randome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Shape.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,70 +98,78 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ivey5Tgul7lSvFXsVQhdk9zoaF" />
+  <component name="ProjectId" id="1jIAg07aJIGZNtuItPSNS9bys2G" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Антон\Documents\GitHub\src" />
-    </key>
-  </component>
   <component name="RunManager">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="GitHub" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factorial" />
+      <module name="Lab1" />
       <method v="2">
-        <option name="MakeNoErrorCheck" enabled="true" />
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator" />
+        <item itemvalue="Application.Factorial" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d27796a1-3a8b-4f38-8b66-92156fcf94cd" name="Default Changelist" comment="" />
-      <created>1602792744534</created>
+      <changelist id="68917a39-ee33-45c3-9ff0-26e0ea3ae222" name="Default Changelist" comment="" />
+      <created>1603481342034</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1602792744534</updated>
+      <updated>1603481342034</updated>
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602792864259">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1603482138396">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1602792864259" />
-    <state x="740" y="237" key="FileChooserDialogImpl" timestamp="1602793085048">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603482138396" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1603482138396">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="740" y="237" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1602793085048" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1602793086134">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603482138396" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1603482138396">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1602793086134" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1602793086134">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603482138396" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1603482138396">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1602793086134" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1602793086133">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603482138396" />
+    <state x="407" y="32" key="new project wizard" timestamp="1603481544085">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1602793086133" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1602793086134">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1602793086134" />
+    <state x="407" y="32" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1603481544085" />
   </component>
 </project>
