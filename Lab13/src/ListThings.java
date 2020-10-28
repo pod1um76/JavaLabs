@@ -21,11 +21,11 @@ public class ListThings {
         System.out.println("UpdateList");
     }
 
-    void addListIndex(int index, String task) {
-            things.add(index - OFFSET, task);
+    void addList(int index, String task) {
+        things.add(index - OFFSET, task);
     }
 
-    void addListEnd(String task) {
+    void addList(String task) {
         things.add(task);
     }
 
@@ -39,13 +39,6 @@ public class ListThings {
 }
 
 class TestListThings {
-
-    private static final String LIST = "LIST";
-    private static final String ADD = "ADD";
-    private static final String EDIT = "EDIT";
-    private static final String DELETE = "DELETE";
-    private static final String COMPLETION = "STOP";
-
     public static void main(String []args) {
         ListThings listThings = new ListThings();
         Scanner in = new Scanner(System.in);
@@ -55,33 +48,39 @@ class TestListThings {
 
         listThings.initialFilling();
 
-
-        while (true){
+        boolean flag = true;
+        while (flag){
             command = in.next();
 
             switch (command) {
-                case LIST:
+                case "LIST":
                     listThings.getList();
                     break;
-                case EDIT:
+                case "EDIT":
                     index = in.nextInt();
                     task = in.nextLine();
 
                     listThings.changList(index, task);
                     listThings.getList();
                     break;
-                case DELETE:
+                case "DELETE":
                     index = in.nextInt();
 
                     listThings.deletList(index);
                     listThings.getList();
                     break;
-                case ADD:
-                    index = in.nextInt();
-                    task = in.nextLine();
+                case "ADD":
+                    String[] temp = in.nextLine().strip().split(" ", 1);
+                    if (temp.length == 1) {
+                        listThings.addList(temp[0]);
+                    } else if (temp.length > 1) {
+                        listThings.addList(Integer.parseInt(temp[0]), temp[1]);
+                    }
 
-                    listThings.addListIndex(index, task);
                     listThings.getList();
+                    break;
+                case "EXIT":
+                    flag = false;
                     break;
             }
         }
