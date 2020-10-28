@@ -4,8 +4,6 @@ import java.util.TreeSet;
 public class Address {
 
     TreeSet<String> treeSet = new TreeSet();
-    private static final char DOG = '@';
-    private static final char POINT= '.';
 
     void installation() {
         treeSet.add("eyelash@mail.ru");
@@ -28,10 +26,10 @@ public class Address {
         int counterPoints = 0;
 
         for (int i = 0; i < address.length(); i++) {
-            if (address.charAt(i) == DOG ) {
+            if (address.charAt(i) == '@' ) {
                 counterDogs++;
             }
-            if (address.charAt(i) == POINT) {
+            if (address.charAt(i) == '.') {
                 counterPoints++;
             }
         }
@@ -44,10 +42,6 @@ public class Address {
 }
 
 class TestAddress {
-
-    private static final String ADD = "ADD";
-    private static final String LIST = "LIST";
-
     public static void main(String []args) {
         Address address = new Address();
         Scanner in = new Scanner(System.in);
@@ -56,11 +50,12 @@ class TestAddress {
 
         address.installation();
 
-        while (true) {
+        boolean flag = true;
+        while (flag) {
             command = in.next();
 
             switch (command) {
-                case ADD:
+                case "ADD":
                     inf = in.next();
                     if (address.isCorrect(inf)) {
                         address.addAddress(inf);
@@ -69,8 +64,11 @@ class TestAddress {
                     else
                         System.out.println("Адрес введён некоррректно");
                     break;
-                case LIST:
+                case "LIST":
                     address.getTreeSet();
+                    break;
+                case "STOP":
+                    flag = false;
                     break;
             }
         }
