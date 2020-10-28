@@ -38,7 +38,7 @@ public class ListThings {
     }
 }
 
-class Main {
+class TestListThings {
 
     private static final String LIST = "LIST";
     private static final String ADD = "ADD";
@@ -56,7 +56,7 @@ class Main {
         listThings.initialFilling();
 
 
-        while (command != COMPLETION){
+        while (true){
             command = in.next();
 
             switch (command) {
@@ -82,8 +82,6 @@ class Main {
 
                     listThings.addListIndex(index, task);
                     listThings.getList();
-                    break;
-                default:
                     break;
             }
         }
