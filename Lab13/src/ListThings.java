@@ -43,7 +43,7 @@ class Main {
     private static final String LIST = "LIST";
     private static final String ADD = "ADD";
     private static final String EDIT = "EDIT";
-    private static final String DELET = "DELET";
+    private static final String DELETE = "DELETE";
     private static final String COMPLETION = "STOP";
 
     public static void main(String []args) {
@@ -70,7 +70,7 @@ class Main {
                     listThings.changList(index, task);
                     listThings.getList();
                     break;
-                case DELET:
+                case DELETE:
                     index = in.nextInt();
 
                     listThings.deletList(index);
