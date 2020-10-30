@@ -42,7 +42,7 @@ class TestListThings {
     public static void main(String []args) {
         ListThings listThings = new ListThings();
         Scanner in = new Scanner(System.in);
-        String command = null;
+        String command;
         String task;
         int index;
 
@@ -70,7 +70,7 @@ class TestListThings {
                     listThings.getList();
                     break;
                 case "ADD":
-                    String[] temp = in.nextLine().strip().split(" ", 1);
+                    String[] temp = in.nextLine().strip().split(" ", 2);
                     if (temp.length == 1) {
                         listThings.addList(temp[0]);
                     } else if (temp.length > 1) {
