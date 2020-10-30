@@ -36,7 +36,7 @@ public class Collection {
         System.out.println("Впишите имя: ");
 
         Scanner in = new Scanner(System.in);
-        String name = in.next();
+        String name = in.nextLine();
 
         map.put(name, value);
 
@@ -87,11 +87,11 @@ class TestCollection {
 
             boolean chekLetterLatin = command.matches("^[a-zA-Z0]+$");
             boolean chekLetterCyrillic = command.matches("^[а-яА-Я0]+$");
-            boolean chekNumber = command.matches("\\-?\\d+(\\.\\d{0,})?");
+            boolean chekNumber = command.matches("-?\\d+(\\.\\d{0,})?");
 
             switch (command) {
                 case "LIST":
-                    collection.getCollection();
+                    Collection.getCollection();
                     break;
                 case "STOP":
                     flag = false;
