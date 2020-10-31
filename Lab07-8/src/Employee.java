@@ -1,4 +1,4 @@
-package src;
+
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ public class Employee {
 
     public Employee(String name, String surname, int fixedSalary, String position) {
         this.name = name;
-        this.surname = name;
+        this.surname = surname;
         this.fixedSalary = fixedSalary;
         this.position = position;
     }
@@ -80,13 +80,13 @@ class Company {
         TopManager topManager = new TopManager();
         Operator operator = new Operator();
             if (employee.getPosition() == "Manager") {
-                employees.add(new Employee("Vasa", "Pupkin", manager.calcSalary(), "Manager"));
+                employees.add(new Employee("Vasa", "Pupkin", (int) manager.calcSalary(), "Manager"));
             }
             else if (employee.getPosition() == "TopManager") {
-                employees.add(new Employee("Peta", "Kashkov", topManager.calcSalary(), "TopManager"));
+                employees.add(new Employee("Peta", "Kashkov", (int) topManager.calcSalary(), "TopManager"));
             }
             else if (employee.getPosition() == "Operator") {
-                employees.add(new Employee("Kola", "Petrov", operator.calcSalary(), "Operator"));
+                employees.add(new Employee("Kola", "Petrov", (int) operator.calcSalary(), "Operator"));
             }
     }
     public void hireAll(String position, double numberEmployees ) {
@@ -95,13 +95,13 @@ class Company {
         Operator operator = new Operator();
         for (index = 0; index < numberEmployees; index++) {
             if (position == "Manager") {
-                employees.add(index, new Employee("Vasa", "Pupkin", manager.calcSalary(), "Manager"));
+                employees.add(index, new Employee("Vasa", "Pupkin", (int) manager.calcSalary(), "Manager"));
             }
             else if (position == "TopManager") {
-                employees.add(index, new Employee("Peta", "Kashkov", topManager.calcSalary(), "TopManager"));
+                employees.add(index, new Employee("Peta", "Kashkov", (int) topManager.calcSalary(), "TopManager"));
             }
             else if (position == "Operator") {
-                employees.add(index, new Employee("Kola", "Petrov", operator.calcSalary(), "Operator"));
+                employees.add(index, new Employee("Kola", "Petrov", (int) operator.calcSalary(), "Operator"));
             }
         }
     }
@@ -150,11 +150,15 @@ class Company {
 }
 class TestEmployee {
     public static void main() {
+        int counter = 10;
         Company company = new Company();
         company.hireAll("Top Manager", 10);
         company.hireAll("Manager", 80);
         company.hireAll("Operator", 180);
         company.show();
         company.fire();
+        company.sortSalaryTop();
+        company.show();
+        company.getLowestSalaryStaff(counter);
     }
 }
