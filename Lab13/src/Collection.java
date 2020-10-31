@@ -54,8 +54,9 @@ public class Collection {
             }
         }
 
-        if (counter == 0)
+        if (counter == 0) {
             setPhoneNumber(key);
+        }
     }
 
     void chekValue(String value) {
@@ -68,9 +69,11 @@ public class Collection {
             }
         }
 
-        if (counter == 0)
+        if (counter == 0) {
             setName(value);
+        }
     }
+
 }
 
 class TestCollection {
@@ -83,11 +86,11 @@ class TestCollection {
 
         boolean flag = true;
         while (flag) {
-            command  = in.next();
+            command  = in.nextLine();
 
             boolean chekLetterLatin = command.matches("^[a-zA-Z0]+$");
             boolean chekLetterCyrillic = command.matches("^[а-яА-Я0]+$");
-            boolean chekNumber = command.matches("-?\\d+(\\.\\d{0,})?");
+            boolean chekNumber = command.matches("^((8|\\+7)[\\- ]?)?(\\(?\\d{3}\\)?[\\- ]?)?[\\d\\- ]{7,10}$");
 
             switch (command) {
                 case "LIST":
