@@ -22,7 +22,10 @@ public class ListThings {
     }
 
     void addList(int index, String task) {
-        things.add(index - OFFSET, task);
+        if (index > things.size())
+            things.add(task);
+        else
+            things.add(index - OFFSET, task);
     }
 
     void addList(String task) {
@@ -71,9 +74,9 @@ class TestListThings {
                     break;
                 case "ADD":
                     String[] temp = in.nextLine().strip().split(" ", 2);
-                    if (temp.length == 1) {
+                    if (temp.length == 1)
                         listThings.addList(temp[0]);
-                    } else if (temp.length > 1) {
+                    else if (temp.length > 1) {
                         listThings.addList(Integer.parseInt(temp[0]), temp[1]);
                     }
 
