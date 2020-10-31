@@ -29,7 +29,7 @@ public class Address {
             if (address.charAt(i) == '@' ) {
                 counterDogs++;
             }
-            if (address.charAt(i) == '.') {
+            if (address.charAt(i) == '.' && i != address.length() - 1 ) {
                 counterPoints++;
             }
         }
