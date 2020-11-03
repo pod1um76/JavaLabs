@@ -22,11 +22,12 @@ class GeneratingBeautifulNumber {
             for (int numInter = POSITIONS_NULL; numInter < SIZE_NUMBER; numInter++) {
                 number.append(String.format("%03d", numInter * FORMAT_NUMBER + numInter * SIZE_NUMBER + numInter));
                 for (int charInter2 = POSITIONS_NULL; charInter2 < chars.size(); charInter2++) {
-                    if (charInter2 == charInter1) {
+                    if (charInter2 == charInter1)
                         charInter2++;
-                    }
+
                     if (charInter2 >= chars.size())
                         break;
+
                     number.append(chars.get(charInter2));
 
                     for (int charInter3 = POSITIONS_NULL; charInter3 < chars.size(); charInter3++) {
