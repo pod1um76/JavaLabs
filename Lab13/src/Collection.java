@@ -6,12 +6,12 @@ public class Collection {
     static Map<String, String> map = new TreeMap<>();
 
     void installation() {
-        map.put("Вася", "798561177" );
-        map.put("Петя", "798535789" );
-        map.put("Аркаша", "798591063" );
-        map.put("Миша", "798512314" );
-        map.put("Гоша", "798570056" );
-        map.put("Коля", "798511128" );
+        map.put("Вася", "+7(985)-611-77-56" );
+        map.put("Петя", "+7(985)-357-89-91" );
+        map.put("Аркаша", "8(985)-910-63-33" );
+        map.put("Миша", "8(911)-123-14-47" );
+        map.put("Гоша", "+7(985)-700-56-99" );
+        map.put("Коля", "+7(901)-111-28-72" );
     }
 
     static void getCollection() {
