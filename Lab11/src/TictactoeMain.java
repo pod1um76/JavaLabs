@@ -39,10 +39,10 @@ class Ticktacktoe extends JComponent {
                 int cS = checkState();
                 if (cS != 0){
                     if (cS == FIELD_X * 3) {
-                        JOptionPane.showMessageDialog(this, "X won!", "Winner!", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(this, "X победили!", "Победитель!", JOptionPane.INFORMATION_MESSAGE);
                     }
                     else if (cS == FIELD_0 * 3){
-                        JOptionPane.showMessageDialog(this, "0 won!", "Winner!", JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.showMessageDialog(this, "0 победили!", "Победитель!", JOptionPane.INFORMATION_MESSAGE);
                     }
                     else{
                         JOptionPane.showMessageDialog(this, "Draw!", "Draw!", JOptionPane.INFORMATION_MESSAGE);
@@ -147,7 +147,7 @@ class Ticktacktoe extends JComponent {
 
 public class TictactoeMain {
     public static void main(String args[]) {
-        JFrame window = new JFrame("TicTacToe");
+        JFrame window = new JFrame("Крестики-нолики");
         window.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         window.setSize(400, 400);
         window.setLayout(new BorderLayout());
