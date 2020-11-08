@@ -1,17 +1,18 @@
-package src;
-
 import java.time.LocalDate;
 import java.util.ArrayList;
 
 public class Employee2 {
-    private String name, surname, adress, fonNumber;
-    private LocalDate birthDay;
+    private final String name;
+    private final String surname;
+    private String address;
+    private String fonNumber;
+    private final LocalDate birthDay;
     private double salary;
 
-    public Employee2(String name, String surname, String adress, String fonNumber, double salary, LocalDate birthDay) {
+    public Employee2(String name, String surname, String address, String fonNumber, double salary, LocalDate birthDay) {
         this.name = name;
         this.surname = surname;
-        this.adress = adress;
+        this.address = address;
         this.fonNumber = fonNumber;
         this.salary = salary;
         this.birthDay = birthDay;
@@ -23,9 +24,9 @@ public class Employee2 {
     public String getSurname() {
         return surname;
     }
-    public void setAdress(String adress) {this.adress = adress;}
-    public String getAdress() {
-        return adress;
+    public void setAddress(String address) {this.address = address;}
+    public String getAddress() {
+        return address;
     }
     public void setFonNumber(String fonNumber) {this.fonNumber = fonNumber;}
     public String getFonNumber() {
@@ -41,24 +42,25 @@ public class Employee2 {
         return salary;
     }
 }
+
 interface HandleEmployee {
     void handleEmployee(Employee2 employee2);
-}
-interface Change {
-    void setAdr(ArrayList<Employee2> employee2s);
 }
 
 class Company1 {
     public ArrayList<Employee2> employee2s = new ArrayList<>();
+
     public void addEmployee2s(Employee2 employee2s1) {
         employee2s.add(employee2s1);
     }
+
     public void show() {
         for(Employee2 i : employee2s ) {
-            System.out.println(i.getName() + i.getSurname() + i.getAdress() + i.getFonNumber() + i.getSalary() + " " + i.getBirthDay());
+            System.out.println(i.getName() + i.getSurname() + i.getAddress() + i.getFonNumber() + i.getSalary() + " " + i.getBirthDay());
         }
         System.out.println(" ");
     }
+
     public void clear() {
         for (int i = 0; i < employee2s.size(); i++) {
             if (employee2s.get(i).getSalary() < 10000) {
@@ -67,6 +69,7 @@ class Company1 {
         }
     }
 }
+
 class HandleEmployees implements HandleEmployee {
     public void handleEmployee(Employee2 employee2) {
         int solar = 25000;
@@ -75,25 +78,29 @@ class HandleEmployees implements HandleEmployee {
         }
     }
 }
+
 class Main {
-    public static void main(String args[]) {
-        Employee2 newAdr = null;
+    public static void main(String[] args) {
         String city = "Moscow";
         Company1 firm = new Company1();
         LocalDate time = LocalDate.of(1985, 7, 14);
+
         for(int i = 0; i < 30; i++) {
-            firm.addEmployee2s(new Employee2("Vasa ", "Pupkin ", "Zapopinsk_36_k1 ", "+79257653379 ", 1 + Math.random() * 30000, time));
+            firm.addEmployee2s(new Employee2("Vase ", "Pumpkin ", "Zapopan_36_k1 ", "+79257653379 ", 1 + Math.random() * 30000, time));
         }
+
         firm.show();
         firm.clear();
         firm.show();
         HandleEmployee handleEmploy;
-        handleEmploy = (employee2s) -> employee2s.setAdress(city);
+        handleEmploy = (employee2s) -> employee2s.setAddress(city);
         for (Employee2 i: firm.employee2s) {
             if (i.getSalary() > 29000) {
                 handleEmploy.handleEmployee(i);
             }
         }
+        firm.show();
+
         new HandleEmployee() {
             @Override
             public void handleEmployee(Employee2 employee2) {
