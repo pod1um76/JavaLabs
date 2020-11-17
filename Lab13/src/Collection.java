@@ -73,7 +73,6 @@ public class Collection {
             setName(value);
         }
     }
-
 }
 
 class TestCollection {
