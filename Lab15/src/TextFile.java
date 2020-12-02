@@ -7,8 +7,8 @@ import java.util.*;
 public class TextFile {
     static void createFile(String information) throws IOException{
         try {
-            File floder = new File("C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile");
-            boolean bool = floder.mkdir();
+            File folder = new File("C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile");
+            boolean bool = folder.mkdir();
             FileWriter textFile = new FileWriter("C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile\\log.txt");
 
             if (bool) {
@@ -63,7 +63,7 @@ class Main {
         Scanner in = new Scanner(System.in);
         String address = in.next();
         
-        System.out.println("Floder size " + address +" compose " + textFile.whenGetReadableSize__thenCorrect(address));
+        System.out.println("Folder size " + address +" compose " + textFile.whenGetReadableSize__thenCorrect(address));
         in.close();   
     }
 }
