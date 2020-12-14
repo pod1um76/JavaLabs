@@ -54,10 +54,10 @@ public class CopyFolder {
 
     static void createFileAndFolder() throws IOException {
         try {
-            // C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile
-            File folder = new File("C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile");
+            // C:\\Users\\пїЅпїЅпїЅпїЅпїЅ\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile
+            File folder = new File("C:\\Users\\РђРЅС‚РѕРЅ\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile");
             boolean bool = folder.mkdir();
-            FileWriter textFile = new FileWriter("C:\\Users\\Антон\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile\\log.txt");
+            FileWriter textFile = new FileWriter("C:\\Users\\РђРЅС‚РѕРЅ\\Documents\\GitHub\\JavaLabsNew\\Lab15\\forTextFile\\log.txt");
 
             if (bool) {
                 System.out.println("Successfully create!");
