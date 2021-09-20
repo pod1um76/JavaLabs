@@ -1,20 +1,13 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+
 class Dog {
-    String name;
-    int age, trans_age;
-    Dog(String name_1, int age_1) {
-        name = name_1;
-        age = age_1;
-    }
+    private String name;
+    private int age, trans_age;
 
-    public Dog() {
-        String name = "erhtrfh";
-        int  age = 7;
-    }
-
-    public Dog(String strgtgth) {
-        System.out.println(strgtgth);
+    Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
     }
 
     void getName_Age(String name_2, int age_2) {
@@ -22,11 +15,13 @@ class Dog {
         age = age_2;
         show();
     }
+
     int translate() {
         trans_age = age * 7;
         return trans_age;
     }
-    String ToString() {
+
+    String toString() {
 
         return (name + " " + age + " " + translate());
     }
@@ -34,12 +29,14 @@ class Dog {
         System.out.println(ToString());
     }
 }
+
 class dog_kannel {
     static void show_mass(String mass[]) {
         for (int i = 0; i < 3; i++) {
             System.out.println(mass[i]);
         }
     }
+
     public static void main(String[] args) {
         Scanner bob = new Scanner(System.in);
         System.out.println("Введите имя: ");
